@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>كبسة سعودية</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- شريط التنقل -->
+    <nav>
+        <h1 class="logo">كبستنا</h1>
+        <div class="menu-icon" onclick="toggleMenu()">
+    ☰
+</div>
+
+        <ul>
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="#about">عن المنتج</a></li>
+            <li><a href="#menu">المميزات</a></li>
+            <li><a href="about.html">من نحن</a></li>
+            <ul id="nav-links">
+    </nav>
+
+    <!-- القسم الرئيسي -->
+    <header class="hero">
+
+        <div class="hero-text">
+            <h1>أشهى كبسة سعودية أصلية</h1>
+
+            <p>
+                نكهة سعودية أصيلة تجمع بين الطعم الشهي والتوابل الغنية
+                لتمنحك تجربة لا تُنسى.
+            </p>
+
+            <button onclick="showDesigner()">
+                المصممات
+            </button>
+        </div>
+
+        <!-- مكان الصورة -->
+        <video controls autoplay muted loop>
+            <source src="videos/video.mp4" type="video/mp4">
+        </video>
+
+    </header>
+
+    <!-- قسم عن المنتج -->
+    <section id="about" class="section">
+
+        <h2>عن الكبسة</h2>
+
+        <p>
+            الكبسة من أشهر الأطباق السعودية التقليدية،
+            وتتميز بالأرز المتبل واللحم أو الدجاج
+            مع خليط غني من البهارات العربية.
+        </p>
+
+    </section>
+
+    <!-- قسم المميزات -->
+    <section id="menu" class="section cards">
+
+        <div class="card">
+            <h3>طعم أصيل</h3>
+            <p>وصفة سعودية تقليدية بطابع عصري.</p>
+        </div>
+
+        <div class="card">
+            <h3>مكونات طازجة</h3>
+            <p>أرز بسمتي فاخر وتوابل طبيعية.</p>
+        </div>
+
+        <div class="card">
+            <h3>جودة عالية</h3>
+            <p>تحضير يومي للحفاظ على أفضل نكهة.</p>
+        </div>
+
+    </section>
+
+    <!-- الفيديو -->
+    <section class="video-section">
+
+        <h2>اعلان المنتج</h2>
+
+        <video controls autoplay muted loop>
+            <source src="videos/IMG_5745.MP4" type="video/mp4">
+        </video>
+
+    </section>
+
+    <!-- معرض الصور -->
+    <section class="gallery">
+
+        <h2>صور المنتج</h2>
+
+        <div class="gallery-images">
+
+            <img src="images/photo_2026-05-09_14-50-54.jpg" alt="">
+            <img src="images/photo_٢٠٢٦-٠٤-١٠_١١-٣٦-٥٥.jpg" alt="">
+            <img src="images/photo_٢٠٢٦-٠٤-١٠_١١-٣٦-٥٦.jpg" alt="">
+
+        </div>
+
+    </section>
+
+    <!-- التذييل -->
+    <footer>
+        <p>
+            وبس والله
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
